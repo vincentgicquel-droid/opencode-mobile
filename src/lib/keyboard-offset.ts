@@ -55,7 +55,7 @@ export const IOS_KEYBOARD_VERTICAL_OFFSET = 90
 // constant closes that residual gap; erring slightly large is harmless (a
 // couple of dp of air between composer and keyboard) while erring small hides
 // the input again.
-export const ANDROID_KEYBOARD_EXTRA_COMPENSATION_DP = 20
+export const ANDROID_KEYBOARD_EXTRA_COMPENSATION_DP = 30
 
 export function keyboardVerticalOffset(platform: string, insetTop: number, insetBottom = 0): number {
   if (platform === "ios") return IOS_KEYBOARD_VERTICAL_OFFSET
